@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WordGuesser</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+
+  <main class="chat-container">
+    <section id="user-display">
+      <h3 id="room-name"></h3>
+      <ul id="usernameList">
+      </ul>
+    </section>
+    <section id="chat-section">
+      <h1>WordGuesser</h1>
+      <p id="random-word-text">...</p>
+      <ul id="message-box"></ul>
+      <form id="message-form">
+        <input type="text" id="message-input" autocomplete="off">
+        <input class="message-submit" type="submit" value="send">
+      </form>
+    </section>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.11.0/qs.min.js"
+    integrity="sha512-/l6vieC+YxaZywUhmqs++8uF9DeMvJE61ua5g+UK0TuHZ4TkTgB1Gm1n0NiA86uEOM9JJ6JUwyR0hboKO0fCng=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/script.js"></script>
+</body>
+
+</html>
