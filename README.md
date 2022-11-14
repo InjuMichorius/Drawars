@@ -97,8 +97,8 @@ __Code standards are important__ when working on any project; your code stays *c
 
 # Packages used 📦
 * [Express](https://www.npmjs.com/package/express) - Used to setup the server
-* [Body-parser](https://www.npmjs.com/package/body-parser) - Used to refer to html elements
-* [Ejs](https://www.npmjs.com/package/ejs) - Used for templating
+* [Socket.io](https://socket.io/) - Used to make live connection with the server
+* [Node Fetch](https://www.npmjs.com/package/node-fetch) - Used to fetch random word api
 * [Nodemon](https://www.npmjs.com/package/nodemon) - Used for auto refreshing the server
 
 # License 🔐
