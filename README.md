@@ -46,6 +46,17 @@ http://localhost:2424
 # Data life cycle
 ![](https://github.com/InjuMichorius/Drawars/blob/main/public/images/datalifecicle.jpg)
 
+# Real-time events
+
+### joinRoom
+This event is triggered by the first button, when the user has chosen a username and room. On the server side, the username gets pushed into the usernames array of that specific room.
+
+### message
+This event is triggered when a message is sent. The event checks on the server side if the message has the correct answer, if this is true it will send a succes message to all users in the current room. If it is not the correct answer, it will just show as a standard message.
+
+### Disconnect
+When a user disconnects, this user gets removed from the usernames array of that room. There will also be a message saying the user has left.
+
 # Feature wishlist / backlog 👑
 Below is a list of features I'd love to add to this application. The features are split up using the **M**o**SC**o**W** method.
 
