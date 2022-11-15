@@ -43,6 +43,9 @@ Congratulations! If everything works, you should be able to see the application 
 http://localhost:2424
 ```
 
+# Data life cycle
+![](https://github.com/InjuMichorius/Drawars/blob/main/public/images/datalifecicle.jpg)
+
 # Feature wishlist / backlog 👑
 Below is a list of features I'd love to add to this application. The features are split up using the **M**o**SC**o**W** method.
 
